@@ -1,3 +1,11 @@
+### Clone repository at ~/src/iosevka
+# guix install node ttfautohint
+# cd ~/src/iosevka
+# nmp install
+# cp private-build-plans.spiplit.toml private-build-plans.toml
+# emacs private-build-plans.toml ; from https://typeof.net/Iosevka/customizer
+# npm run build -- ttf::iosevka-spiplit ; contents::iosevka-spiplit
+
 [buildPlans.iosevka-spiplit]
 family = "Iosevka spiplit"
 spacing = "normal"
