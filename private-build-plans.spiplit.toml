@@ -1,0 +1,35 @@
+[buildPlans.iosevka-spiplit]
+family = "Iosevka spiplit"
+spacing = "normal"
+serifs = "sans"
+no-cv-ss = true
+export-glyph-names = false
+
+  [buildPlans.iosevka-spiplit.variants]
+  inherits = "ss04"
+
+    [buildPlans.iosevka-spiplit.variants.design]
+    i = "serifed-flat-tailed"
+    two = "curly-neck"
+    four = "semi-open-non-crossing"
+    at = "threefold-solid-inner"
+
+[buildPlans.iosevka-spiplit.widths.normal]
+shape = 500
+menu = 5
+css = "normal"
+
+[buildPlans.iosevka-spiplit.widths.extended]
+shape = 600
+menu = 7
+css = "expanded"
+
+[buildPlans.iosevka-spiplit.widths.condensed]
+shape = 416
+menu = 3
+css = "condensed"
+
+[buildPlans.iosevka-spiplit.widths.semicondensed]
+shape = 456
+menu = 4
+css = "semi-condensed"
