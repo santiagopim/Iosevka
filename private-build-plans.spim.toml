@@ -1,0 +1,35 @@
+[buildPlans.iosevka-spim]
+family = "Iosevka spim"
+spacing = "quasi-proportional"
+serifs = "sans"
+no-cv-ss = true
+export-glyph-names = false
+
+  [buildPlans.iosevka-spim.variants]
+  inherits = "ss04"
+
+    [buildPlans.iosevka-spim.variants.design]
+    i = "serifed-flat-tailed"
+    two = "curly-neck"
+    four = "semi-open-non-crossing"
+    at = "threefold-solid-inner"
+
+[buildPlans.iosevka-spim.widths.normal]
+shape = 500
+menu = 5
+css = "normal"
+
+[buildPlans.iosevka-spim.widths.extended]
+shape = 600
+menu = 7
+css = "expanded"
+
+[buildPlans.iosevka-spim.widths.condensed]
+shape = 416
+menu = 3
+css = "condensed"
+
+[buildPlans.iosevka-spim.widths.ultraextended]
+shape = 720
+menu = 9
+css = "ultra-expanded"
